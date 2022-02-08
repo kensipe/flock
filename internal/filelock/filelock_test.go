@@ -185,7 +185,7 @@ func TestRLockExcludesOnlyLock(t *testing.T) {
 }
 
 func TestLockNotDroppedByExecCommand(t *testing.T) {
-	//testenv.MustHaveExec(t)  //originally
+	// testenv.MustHaveExec(t)  //originally
 	MustHaveExec(t)
 
 	f, remove := mustTempFile(t)
